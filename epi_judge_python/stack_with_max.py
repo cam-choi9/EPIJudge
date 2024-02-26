@@ -3,6 +3,7 @@ from test_framework.test_failure import TestFailure
 
 
 class Stack:
+
     def empty(self) -> bool:
         # TODO - you fill in here.
         return True
