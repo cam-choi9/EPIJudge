@@ -11,7 +11,8 @@ def power(x: float, y: int) -> float:
     while power:
         if power & 1:
             result *= x
-        x, power = x * x, power >> 1
+        x = x * x
+        power >>= 1
 
     return result
 
